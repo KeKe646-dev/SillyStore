@@ -1,0 +1,126 @@
+body{
+    background-color: #ffe7ed;
+    font-family: "Elms Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    margin: 0;
+}
+
+li, a, button{
+color: #693636;
+text-decoration: none;
+font-size: 20px;
+font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right:100px; */
+   
+}
+
+
+.navlinks{
+list-style: none;
+}
+
+.navlinks li{
+display: inline-block;
+padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+   color: #ff8ee1;
+}
+
+button{
+    padding: 9px 18px;
+    background-color: #ffff6e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+}
+button:hover{
+    background-color: #ff8ee1;
+}
+
+
+.sb-title {
+  position: relative;
+  top: -12px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+.sb-title-icon {
+  position: relative;
+  top: -5px;
+}
+
+gmpx-split-layout {
+  height: 500px;
+  width: 600px;
+}
+
+gmpx-split-layout:not(:defined) {
+  visibility: hidden;
+}
+
+.panel {
+  background: rgb(255, 253, 209);
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.half-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-input {
+  max-width: 120px;
+}
+
+h2 {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+input {
+  height: 30px;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+input:focus::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+#t3{
+margin-top: 50px;
+
+}

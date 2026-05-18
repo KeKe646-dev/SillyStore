@@ -1,0 +1,80 @@
+body{
+    background-color: #ffe7ed;
+    font-family: "Elms Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+li, a, button{
+color: #693636;
+text-decoration: none;
+font-size: 20px;
+font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right:100px; */
+   
+}
+
+
+.navlinks{
+list-style: none;
+}
+
+.navlinks li{
+display: inline-block;
+padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+   color: #ff8ee1;
+}
+
+button{
+    padding: 9px 18px;
+    background-color: #ffff6e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+}
+button:hover{
+    background-color: #ff8ee1;
+}
+
+.grid-container{
+    /* display: flex;
+    align-items: center;
+    font-size: 20px; */
+
+    display: grid;
+    grid-template-columns:600px 450px ;
+    align-items: center;
+    justify-content:center;
+    margin-top: 80px;
+
+}
+
+#t1{
+  color: #693636;
+  font-size: 50px;
+    font-family: "Rubik Spray Paint", system-ui;
+}
+
+.Item{
+      font-family: "Elms Sans", sans-serif;
+      font-size: 20px;
+}

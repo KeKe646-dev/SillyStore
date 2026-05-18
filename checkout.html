@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="buy.css">
+     <link rel="stylesheet" href="checkout.css"
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+  <script src="checkout.js" type="module"></script>
+</head>
+<body>
+         <header>
+        <nav>
+            <ul class="navlinks">
+             
+         <li><a href="index.html">Shop</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+<div id="t1">
+<center>Checkout</center>
+</div>
+
+
+<div id="t3">
+
+<center>
+ <gmpx-api-loader key="AIzaSyCmSs_5njkDy5SeGMC36KfEySlDl0IJkWI" solution-channel="GMP_QB_addressselection_v4_cABC">
+    </gmpx-api-loader>
+    <gmpx-split-layout row-layout-min-width="600">
+      <div class="panel" slot="fixed">
+        <div>
+          <img class="sb-title-icon" src="https://fonts.gstatic.com/s/i/googlematerialicons/location_pin/v5/24px.svg" alt="">
+          <span class="sb-title">Address Selection</span>
+        </div>
+        <input type="text" placeholder="Address" id="location-input"/>
+        <input type="text" placeholder="Apt, Suite, etc (optional)"/>
+        <input type="text" placeholder="City" id="locality-input"/>
+        <div class="half-input-container">
+          <input type="text" class="half-input" placeholder="State/Province" id="administrative_area_level_1-input"/>
+          <input type="text" class="half-input" placeholder="Zip/Postal code" id="postal_code-input"/>
+        </div>
+        <input type="text" placeholder="Country" id="country-input"/>
+        <gmpx-icon-button variant="filled" href="thankyou.html">Purchase </gmpx-icon-button>
+      </div>
+      <gmp-map slot="main">
+        <gmp-advanced-marker></gmp-advanced-marker>
+      </gmp-map>
+    </gmpx-split-layout>
+</center>
+    
+</div>
+
+
+
+
+    
+</body>
+</html>
